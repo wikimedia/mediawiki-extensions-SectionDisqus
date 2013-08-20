@@ -12,15 +12,15 @@ $messages = array();
  * @author Luis Felipe Schenone
  */
 $messages['en'] = array(
-	'sectiondisqus-desc' => 'Adds a "Discuss" button next to the "Edit" button of every section, that when clicked, opens a Disqus lightbox for that section.',
+	'sectiondisqus-desc' => 'Adds a "Discuss" button next to the "Edit" button of every section, that when clicked, opens a Disqus lightbox for that section',
 );
 
 /** Message documentation (Message documentation)
+ * @author Luis Felipe Schenone
  * @author Raimond Spekking
- * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'sectiondisqus-desc' => '{{desc|name=SectionDisqus|url=http://www.mediawiki.org/wiki/Extension:HoverGallery}}',
+	'sectiondisqus-desc' => '{{desc|name=SectionDisqus|url=https://www.mediawiki.org/wiki/Extension:SectionDisqus}}',
 );
 
 /** Spanish (español)

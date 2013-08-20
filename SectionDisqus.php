@@ -10,14 +10,13 @@
  * @version 0.1
  */
 
-$wgExtensionCredits['specialpage'][] = array(
+$wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'SectionDisqus',
-	'description'    => 'Adds a "disqus" button next to the "edit" button of every section, that when clicked, opens a Disqus dialog for that section.',
 	'descriptionmsg' => 'sectiondisqus-desc',
 	'version'        => '0.1',
 	'author'         => 'Luis Felipe Schenone',
-	'url'            => 'http://www.mediawiki.org/wiki/Extension:SectionDisqus'
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:SectionDisqus'
 );
 
 $wgResourceModules['ext.SectionDisqus'] = array(
