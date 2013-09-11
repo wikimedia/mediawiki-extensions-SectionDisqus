@@ -38,10 +38,18 @@ $messages['de'] = array(
 );
 
 /** Spanish (español)
+ * @author Fitoschido
  * @author Luis Felipe Schenone
  */
 $messages['es'] = array(
-	'sectiondisqus-desc' => 'Añade un botón "Discutir" junto al botón "Editar" de cada sección, que al clickearlo, abre una ventana de discusión para esa sección.',
+	'sectiondisqus-desc' => 'Añade el botón «Discutir» junto al de «Editar» en cada sección, que al pulsarlo abre un recuadro de comentarios de Disqus',
+);
+
+/** French (français)
+ * @author Sherbrooke
+ */
+$messages['fr'] = array(
+	'sectiondisqus-desc' => "Ajouter un bouton « Discussion » à côté du bouton « Modifier » de toutes les sections, ce qui permet d'ouvrir une boîte de discussion Disqus pour cette section",
 );
 
 /** Galician (galego)
