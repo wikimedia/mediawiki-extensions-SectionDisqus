@@ -80,6 +80,13 @@ $messages['mk'] = array(
 	'sectiondisqus-desc' => 'Става копче „Разговор“ до копчето „Уреди“ во секој дел (поднаслов). Кога ќе стиснете на него, отвора прозорче „Disqus“ за тој дел',
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'sectiondisqus-desc' => 'Aggiunge \'nu buttone "\'Ngazzate" vecine a \'u buttone "Cange" de ogne sezione, ca quanne avène cvazzate, iapre \'na buatte de Disqus pe quedda sezione.',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
