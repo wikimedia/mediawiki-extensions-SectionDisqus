@@ -73,11 +73,25 @@ $messages['ja'] = array(
 	'sectiondisqus-desc' => '「議論」ボタンをそれぞれの節の「編集」ボタンの隣に追加する (クリックするとその節の Disqus lightbox が表示される)',
 );
 
+/** Luxembourgish (Lëtzebuergesch)
+ * @author Robby
+ */
+$messages['lb'] = array(
+	'sectiondisqus-desc' => 'Setzt e Knäppchen "Diskutéieren" niewent de Knäppchen "Änneren" vun all Abschnitt, dee beim dropklicken eng \'Disqus-Lightbox\' fir dësen Abschnitt opmécht.',
+);
+
 /** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
 	'sectiondisqus-desc' => 'Става копче „Разговор“ до копчето „Уреди“ во секој дел (поднаслов). Кога ќе стиснете на него, отвора прозорче „Disqus“ за тој дел',
+);
+
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'sectiondisqus-desc' => 'Apondre un boton « Discussion » al costat del boton « Modificar » de totas las seccions, aquò permet de dobrir una bóstia de discussion Disqus per aquesta seccion',
 );
 
 /** tarandíne (tarandíne)
