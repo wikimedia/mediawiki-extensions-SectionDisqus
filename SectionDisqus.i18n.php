@@ -101,6 +101,13 @@ $messages['roa-tara'] = array(
 	'sectiondisqus-desc' => 'Aggiunge \'nu buttone "\'Ngazzate" vecine a \'u buttone "Cange" de ogne sezione, ca quanne avène cvazzate, iapre \'na buatte de Disqus pe quedda sezione.',
 );
 
+/** Russian (русский)
+ * @author Okras
+ */
+$messages['ru'] = array(
+	'sectiondisqus-desc' => 'Добавляет в каждом разделе рядом со ссылкой «Править» ссылку «Обсудить» по нажатию на которую открывает окно с Disqus для этого раздела',
+);
+
 /** Ukrainian (українська)
  * @author Andriykopanytsia
  */
