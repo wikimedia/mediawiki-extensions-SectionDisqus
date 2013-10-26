@@ -12,7 +12,7 @@ $messages = array();
  * @author Luis Felipe Schenone
  */
 $messages['en'] = array(
-	'sectiondisqus-desc' => 'Adds a "Discuss" button next to the "Edit" button of every section, that when clicked, opens a Disqus lightbox for that section',
+	'sectiondisqus-desc' => 'Adds a "Discuss" button next to the "Edit" button of every section, that when clicked, opens a Disqus Lightbox for that section',
 );
 
 /** Message documentation (Message documentation)
