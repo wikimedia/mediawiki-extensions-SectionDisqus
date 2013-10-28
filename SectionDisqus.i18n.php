@@ -70,7 +70,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'sectiondisqus-desc' => '「議論」ボタンをそれぞれの節の「編集」ボタンの隣に追加する (クリックするとその節の Disqus lightbox が表示される)',
+	'sectiondisqus-desc' => '「議論」ボタンをそれぞれの節の「編集」ボタンの隣に追加する (クリックするとその節の Disqus Lightbox が表示される)',
 );
 
 /** Luxembourgish (Lëtzebuergesch)
