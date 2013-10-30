@@ -23,6 +23,13 @@ $messages['qqq'] = array(
 	'sectiondisqus-desc' => '{{desc|name=SectionDisqus|url=https://www.mediawiki.org/wiki/Extension:SectionDisqus}}',
 );
 
+/** Arabic (العربية)
+ * @author Claw eg
+ */
+$messages['ar'] = array(
+	'sectiondisqus-desc' => 'إضافة زر "بحث" بجوار زر "تحرير" لكل قسم، فعند النقر، يفتح صندوق بحث لهذا المقطع',
+);
+
 /** Asturian (asturianu)
  * @author Xuacu
  */
