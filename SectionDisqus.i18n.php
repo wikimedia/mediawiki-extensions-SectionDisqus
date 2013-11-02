@@ -82,9 +82,10 @@ $messages['ja'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
-	'sectiondisqus-desc' => 'Setzt e Knäppchen "Diskutéieren" niewent de Knäppchen "Änneren" vun all Abschnitt, dee beim dropklicken eng \'Disqus-Lightbox\' fir dësen Abschnitt opmécht.',
+	'sectiondisqus-desc' => 'Setzt e Knäppchen "Diskutéieren" nieftt de Knäppchen "Änneren" vun all Abschnitt, dee beim dropklicken eng \'Disqus-Lightbox\' fir dësen Abschnitt opmécht.',
 );
 
 /** Macedonian (македонски)
