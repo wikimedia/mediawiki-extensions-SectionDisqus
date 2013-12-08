@@ -95,6 +95,13 @@ $messages['mk'] = array(
 	'sectiondisqus-desc' => 'Става копче „Разговор“ до копчето „Уреди“ во секој дел (поднаслов). Кога ќе стиснете на него, отвора прозорче „Disqus“ за тој дел',
 );
 
+/** Dutch (Nederlands)
+ * @author Siebrand
+ */
+$messages['nl'] = array(
+	'sectiondisqus-desc' => 'Voegt een knop "Overleggen" toe naast de knop "Bewerken" voor iedere paragraaf, die als er op wordt geklikt een Disqus Lightbox opent voor die paragraaf',
+);
+
 /** Occitan (occitan)
  * @author Cedric31
  */
