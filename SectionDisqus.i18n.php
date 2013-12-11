@@ -129,3 +129,10 @@ $messages['ru'] = array(
 $messages['uk'] = array(
 	'sectiondisqus-desc' => 'Додає кнопку "Обговорити" біля кнопки "Редагувати" кожного розділу, щоб при натисканні відкривалося спливне вікно Disqus для цього розділу',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'sectiondisqus-desc' => '在每个“编辑”按钮旁添加一个“讨论”按钮，点击则对该章节打开一个Disqus Lightbox',
+);
