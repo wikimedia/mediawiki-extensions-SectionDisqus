@@ -44,6 +44,13 @@ $messages['de'] = array(
 	'sectiondisqus-desc' => 'Ergänzt einen Button „Diskutieren“ neben dem „Bearbeiten“-Link bei jedem Abschnitt. Beim Anklicken öffnet sich ein Disqus-Leuchtkasten für diesen Abschnitt.',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'sectiondisqus-desc' => 'Pśidawa tłocašk "Diskutěrowaś" pódła tłocaška "Wobźěłaś" kuždego wótrězka, kótaryž, jolic kliknješ na njen, wócynja swěśaty kašćik Disqus.',
+);
+
 /** Spanish (español)
  * @author Fitoschido
  * @author Luis Felipe Schenone
@@ -64,6 +71,13 @@ $messages['fr'] = array(
  */
 $messages['gl'] = array(
 	'sectiondisqus-desc' => 'Engade un botón "Conversa" ao carón do botón "Editar" de cada sección que, ao premer nel, abre unha ventá de conversa para esa sección',
+);
+
+/** Upper Sorbian (hornjoserbsce)
+ * @author Michawiki
+ */
+$messages['hsb'] = array(
+	'sectiondisqus-desc' => 'Přidawa tłóčatko "Diskutować" pódła tłóčatka "Wobdźěłać" kóždeho wotrězka, kotrež, jeli na njo kliknješ, swěćaty kašćik Disqus wočinja.',
 );
 
 /** Italian (italiano)
