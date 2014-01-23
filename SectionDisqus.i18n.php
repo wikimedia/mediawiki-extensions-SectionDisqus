@@ -94,6 +94,13 @@ $messages['ja'] = array(
 	'sectiondisqus-desc' => '「議論」ボタンをそれぞれの節の「編集」ボタンの隣に追加する (クリックするとその節の Disqus Lightbox が表示される)',
 );
 
+/** Korean (한국어)
+ * @author Priviet
+ */
+$messages['ko'] = array(
+	'sectiondisqus-desc' => '모든 문단마다 "편집" 버튼 옆에 클릭하면 그 문단의 Disqus Lightbox를 여는 "토론" 버튼 추가',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  * @author Soued031
