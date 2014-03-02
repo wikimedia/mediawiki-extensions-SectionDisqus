@@ -59,6 +59,13 @@ $messages['es'] = array(
 	'sectiondisqus-desc' => 'Añade el botón «Discutir» junto al de «Editar» en cada sección, que al pulsarlo abre un recuadro de comentarios de Disqus',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'sectiondisqus-desc' => 'افزودن یک دکمه "بحث" کنار دکمه "ویرایش" هر بخش، که هنگامی که کلیک شود، یک لایت‌باکس دیسکاس برای آن بخش باز می‌کند.',
+);
+
 /** French (français)
  * @author Sherbrooke
  */
