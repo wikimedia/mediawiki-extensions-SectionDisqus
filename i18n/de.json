@@ -1,0 +1,8 @@
+{
+    "@metadata": {
+        "authors": [
+            "Metalhead64"
+        ]
+    },
+    "sectiondisqus-desc": "Ergänzt einen Button „Diskutieren“ neben dem „Bearbeiten“-Link bei jedem Abschnitt. Beim Anklicken öffnet sich ein Disqus-Leuchtkasten für diesen Abschnitt."
+}

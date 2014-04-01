@@ -7,14 +7,13 @@
  *
  * @author Luis Felipe Schenone <schenonef@gmail.com>
  * @license GPL v2 or later
- * @version 0.1
  */
 
 $wgExtensionCredits['other'][] = array(
 	'path'           => __FILE__,
 	'name'           => 'SectionDisqus',
 	'descriptionmsg' => 'sectiondisqus-desc',
-	'version'        => '0.1',
+	'version'        => '0.2.0',
 	'author'         => 'Luis Felipe Schenone',
 	'url'            => 'https://www.mediawiki.org/wiki/Extension:SectionDisqus'
 );
@@ -28,6 +27,7 @@ $wgResourceModules['ext.SectionDisqus'] = array(
 	'remoteExtPath' => 'SectionDisqus',
 );
 
+$wgMessagesDirs['SectionDisqus'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['SectionDisqus'] = __DIR__ . '/SectionDisqus.i18n.php';
 $wgAutoloadClasses['SectionDisqus'] = __DIR__ . '/SectionDisqus.body.php';
 
