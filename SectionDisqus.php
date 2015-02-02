@@ -15,7 +15,8 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'sectiondisqus-desc',
 	'version'        => '0.2.0',
 	'author'         => 'Luis Felipe Schenone',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:SectionDisqus'
+	'url'            => 'https://www.mediawiki.org/wiki/Extension:SectionDisqus',
+	'license-name'   => 'GPL-2.0+'
 );
 
 $wgResourceModules['ext.SectionDisqus'] = array(
