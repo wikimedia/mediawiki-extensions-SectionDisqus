@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Luis Felipe Schenone"
-        ]
-    },
-    "sectiondisqus-desc": "Adds a \"Discuss\" button next to the \"Edit\" button of every section, that when clicked, opens a Disqus Lightbox for that section"
+	"@metadata": {
+		"authors": [
+			"Luis Felipe Schenone"
+		]
+	},
+	"sectiondisqus-desc": "Adds a \"Discuss\" button next to the \"Edit\" button of every section, that when clicked, opens a Disqus Lightbox for that section"
 }
