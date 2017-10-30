@@ -29,7 +29,6 @@ $wgResourceModules['ext.SectionDisqus'] = array(
 );
 
 $wgMessagesDirs['SectionDisqus'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['SectionDisqus'] = __DIR__ . '/SectionDisqus.i18n.php';
 $wgAutoloadClasses['SectionDisqus'] = __DIR__ . '/SectionDisqus.body.php';
 
 $wgHooks['BeforePageDisplay'][] = 'SectionDisqus::addResources';
