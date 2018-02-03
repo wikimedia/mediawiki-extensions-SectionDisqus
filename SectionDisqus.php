@@ -22,7 +22,6 @@ $wgExtensionCredits['other'][] = array(
 $wgResourceModules['ext.SectionDisqus'] = array(
 	'scripts' => 'SectionDisqus.js',
 	'styles' => 'SectionDisqus.css',
-	'position' => 'top',
 	'dependencies' => array( 'jquery.ui.dialog' ),
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'SectionDisqus',
