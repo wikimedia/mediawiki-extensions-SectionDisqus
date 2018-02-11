@@ -1,35 +1,32 @@
 <?php
-/**
- * SectionDisqus extension
- *
- * @file
- * @ingroup Extensions
- *
- * @author Luis Felipe Schenone <schenonef@gmail.com>
- * @license GPL v2 or later
- */
 
-$wgExtensionCredits['other'][] = array(
-	'path'           => __FILE__,
-	'name'           => 'SectionDisqus',
-	'descriptionmsg' => 'sectiondisqus-desc',
-	'version'        => '0.2.0',
-	'author'         => 'Luis Felipe Schenone',
-	'url'            => 'https://www.mediawiki.org/wiki/Extension:SectionDisqus',
-	'license-name'   => 'GPL-2.0+'
-);
+class SectionDisqus {
 
-$wgResourceModules['ext.SectionDisqus'] = array(
-	'scripts' => 'SectionDisqus.js',
-	'styles' => 'SectionDisqus.css',
-	'dependencies' => array( 'jquery.ui.dialog' ),
-	'localBasePath' => __DIR__,
-	'remoteExtPath' => 'SectionDisqus',
-);
+	static function addResources( &$out ) {
+		$out->addModules( 'ext.SectionDisqus' );
+		return true;
+	}
 
-$wgMessagesDirs['SectionDisqus'] = __DIR__ . '/i18n';
-$wgAutoloadClasses['SectionDisqus'] = __DIR__ . '/SectionDisqus.body.php';
+	static function addDisqusButton( $skin, $title, $section, $tooltip, &$result ) {
+		$result .= ' <span class="disqus_button">[ <a onclick="window.showDisqusDialog(\'' . $tooltip . '\');">disqus</a> ]</span>';
+		return true;
+	}
 
-$wgHooks['BeforePageDisplay'][] = 'SectionDisqus::addResources';
-$wgHooks['DoEditSectionLink'][]  = 'SectionDisqus::addDisqusButton';
-$wgHooks['SkinAfterContent'][] = 'SectionDisqus::addDisqusDialog';
+	static function addDisqusDialog( &$data ) {
+		global $wgSectionDisqusShortname;
+		$data .= '<div id="disqus_dialog" title="Discuss this section"><div id="disqus_thread"></div></div>';
+		$data .= '<script>
+
+			var disqus_shortname = "' . $wgSectionDisqusShortname . '";
+
+			(function() {
+				var dsq = document.createElement("script");
+				dsq.type = "text/javascript";
+				dsq.async = true;
+				dsq.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+				document.getElementsByTagName("body")[0].appendChild(dsq);
+			})();
+			</script>';
+		return true;
+	}
+}

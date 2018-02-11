@@ -1,0 +1,40 @@
+{
+	"name": "SectionDisqus",
+	"version": "0.3",
+	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Felipe Schenone]",
+	"url": "https://www.mediawiki.org/wiki/Extension:SectionDisqus",
+	"descriptionmsg": "sectiondisqus-desc",
+	"license-name": "GPL-3.0",
+	"type": "other",
+	"MessagesDirs": {
+		"SectionDisqus": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SectionDisqus": "SectionDisqus.php"
+	},
+	"ResourceModules": {
+		"ext.SectionDisqus": {
+			"scripts": "SectionDisqus.js",
+			"styles": "SectionDisqus.css",
+			"position": "top",
+			"dependencies": [
+				"jquery.ui.dialog"
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SectionDisqus"
+	},
+	"Hooks": {
+		"BeforePageDisplay": "SectionDisqus::addResources",
+		"DoEditSectionLink": "SectionDisqus::addDisqusButton",
+		"SkinAfterContent": "SectionDisqus::addDisqusDialog"
+	},
+	"config": {
+		"SectionDisqusShortname": "your-disqus-shortname"
+	},
+	"manifest_version": 1
+}
