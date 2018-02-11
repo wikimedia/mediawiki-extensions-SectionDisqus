@@ -13,11 +13,11 @@ class SectionDisqus {
 	}
 
 	static function addDisqusDialog( &$data ) {
-		global $wgSectionDisqusShortname;
+		global $wgDisqusShortname;
 		$data .= '<div id="disqus_dialog" title="Discuss this section"><div id="disqus_thread"></div></div>';
 		$data .= '<script>
 
-			var disqus_shortname = "' . $wgSectionDisqusShortname . '";
+			var disqus_shortname = "' . $wgDisqusShortname . '";
 
 			(function() {
 				var dsq = document.createElement("script");
