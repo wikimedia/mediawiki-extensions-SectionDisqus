@@ -13,11 +13,19 @@ class SectionDisqus {
 	}
 
 	static function addDisqusDialog( &$data ) {
-		global $wgDisqusShortname;
+		global $wgPageDisqusShortname, $wgDisqusShortname;
+		if ( $wgPageDisqusShortname ) {
+			$shortName = $wgPageDisqusShortname;
+		} elseif ( isset( $wgDisqusShortname ) ) {
+			$shortName = $wgDisqusShortname;
+		} else {
+			// placeholder?
+			$shortName = 'your-disqus-shortname';
+		}
 		$data .= '<div id="disqus_dialog" title="Discuss this section"><div id="disqus_thread"></div></div>';
 		$data .= '<script>
 
-			var disqus_shortname = "' . $wgDisqusShortname . '";
+			var disqus_shortname = "' . $shortName . '";
 
 			(function() {
 				var dsq = document.createElement("script");
