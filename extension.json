@@ -34,7 +34,7 @@
 		"SkinAfterContent": "SectionDisqus::addDisqusDialog"
 	},
 	"config": {
-		"PageDisqusShortname": false
+		"SectionDisqusShortname": false
 	},
 	"manifest_version": 1
 }

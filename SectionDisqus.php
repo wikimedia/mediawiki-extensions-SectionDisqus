@@ -13,9 +13,9 @@ class SectionDisqus {
 	}
 
 	static function addDisqusDialog( &$data ) {
-		global $wgPageDisqusShortname, $wgDisqusShortname;
-		if ( $wgPageDisqusShortname ) {
-			$shortName = $wgPageDisqusShortname;
+		global $wgSectionDisqusShortname, $wgDisqusShortname;
+		if ( $wgSectionDisqusShortname !== false ) {
+			$shortName = $wgSectionDisqusShortname;
 		} elseif ( isset( $wgDisqusShortname ) ) {
 			$shortName = $wgDisqusShortname;
 		} else {
