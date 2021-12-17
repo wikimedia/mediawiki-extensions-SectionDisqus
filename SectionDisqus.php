@@ -2,17 +2,34 @@
 
 class SectionDisqus {
 
-	static function addResources( &$out ) {
+	/**
+	 * @param OutputPage &$out
+	 * @return bool
+	 */
+	public static function addResources( &$out ) {
 		$out->addModules( 'ext.SectionDisqus' );
 		return true;
 	}
 
-	static function addDisqusButton( $skin, $title, $section, $tooltip, &$result ) {
+	/**
+	 * @param Skin $skin
+	 * @param Title $title
+	 * @param string $section
+	 * @param string $tooltip
+	 * @param array &$result
+	 * @return bool
+	 */
+	public static function addDisqusButton( $skin, $title, $section, $tooltip, &$result ) {
+		// phpcs:ignore Generic.Files.LineLength.TooLong
 		$result .= ' <span class="disqus_button">[ <a onclick="window.showDisqusDialog(\'' . $tooltip . '\');">disqus</a> ]</span>';
 		return true;
 	}
 
-	static function addDisqusDialog( &$data ) {
+	/**
+	 * @param string &$data
+	 * @return bool
+	 */
+	public static function addDisqusDialog( &$data ) {
 		global $wgSectionDisqusShortname, $wgDisqusShortname;
 		if ( $wgSectionDisqusShortname !== false ) {
 			$shortName = $wgSectionDisqusShortname;

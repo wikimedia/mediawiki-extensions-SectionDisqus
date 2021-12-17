@@ -32,7 +32,7 @@
 	},
 	"Hooks": {
 		"BeforePageDisplay": "SectionDisqus::addResources",
-		"DoEditSectionLink": "SectionDisqus::addDisqusButton",
+		"SkinEditSectionLink": "SectionDisqus::addDisqusButton",
 		"SkinAfterContent": "SectionDisqus::addDisqusDialog"
 	},
 	"config": {
