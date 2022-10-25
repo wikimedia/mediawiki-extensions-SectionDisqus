@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"sectiondisqus-desc": "Adde un button \"Discuter\" al latere del button \"Modificar\" de cata section, le qual, quando on clicca sur illo, aperi un fenestra Lightbox de Disqus pro ille section"
+}
