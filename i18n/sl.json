@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"sectiondisqus-desc": "V vsakem razdelku poleg gumba »Uredi« doda gumb »Razpravljaj«, ki ob kliku odpre razpravno okno Disqus Lightbox za ta razdelek"
+}
