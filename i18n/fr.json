@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sherbrooke"
+			"Sherbrooke",
+			"Verdy p"
 		]
 	},
-	"sectiondisqus-desc": "Ajouter un bouton « Discussion » à côté du bouton « Modifier » de toutes les sections, ce qui permet d'ouvrir une boîte de discussion Disqus pour cette section"
+	"sectiondisqus-desc": "Ajoute un bouton « Discussion » à côté du bouton « Modifier » de toutes les sections, ce qui permet d’ouvrir en un clic une boîte de discussion Disqus Lightbox pour cette section."
 }
