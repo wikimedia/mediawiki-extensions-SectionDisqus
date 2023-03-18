@@ -1,13 +1,13 @@
 {
 	"name": "SectionDisqus",
-	"version": "0.3",
+	"version": "0.4",
 	"author": "[https://www.mediawiki.org/wiki/User:Sophivorus Felipe Schenone]",
 	"url": "https://www.mediawiki.org/wiki/Extension:SectionDisqus",
 	"descriptionmsg": "sectiondisqus-desc",
 	"license-name": "GPL-3.0-only",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.34.0"
+		"MediaWiki": ">= 1.35.0"
 	},
 	"MessagesDirs": {
 		"SectionDisqus": [
@@ -32,11 +32,13 @@
 	},
 	"Hooks": {
 		"BeforePageDisplay": "SectionDisqus::addResources",
-		"SkinEditSectionLink": "SectionDisqus::addDisqusButton",
+		"SkinEditSectionLinks": "SectionDisqus::addDisqusButton",
 		"SkinAfterContent": "SectionDisqus::addDisqusDialog"
 	},
 	"config": {
-		"SectionDisqusShortname": false
+		"SectionDisqusShortname": {
+			"value": false
+		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }

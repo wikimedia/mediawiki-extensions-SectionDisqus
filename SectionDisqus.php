@@ -16,12 +16,22 @@ class SectionDisqus {
 	 * @param Title $title
 	 * @param string $section
 	 * @param string $tooltip
-	 * @param array &$result
+	 * @param array &$links
+	 * @param string $lang
 	 * @return bool
 	 */
-	public static function addDisqusButton( $skin, $title, $section, $tooltip, &$result ) {
-		// phpcs:ignore Generic.Files.LineLength.TooLong
-		$result .= ' <span class="disqus_button">[ <a onclick="window.showDisqusDialog(\'' . $tooltip . '\');">disqus</a> ]</span>';
+	public static function addDisqusButton( $skin, $title, $section, $tooltip, &$links, $lang ) {
+		$link = [
+			'targetTitle' => $title,
+			'text' => 'disqus',
+			'attribs' => [
+				'class' => 'disqus_button',
+				'onclick' => "event.preventDefault(); window.showDisqusDialog('$tooltip');"
+			],
+			'query' => [],
+			'options' => []
+		];
+		$links[] = $link;
 		return true;
 	}
 
