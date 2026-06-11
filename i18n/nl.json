@@ -4,5 +4,5 @@
 			"Siebrand"
 		]
 	},
-	"sectiondisqus-desc": "Voegt een knop \"Overleggen\" toe naast de knop \"Bewerken\" voor iedere paragraaf, die als er op wordt geklikt een Disqus Lightbox opent voor die paragraaf"
+	"sectiondisqus-desc": "Voegt een knop \"Overleggen\" toe naast de knop \"Bewerken\" voor iedere sectie, die als er op wordt geklikt een Disqus Lightbox opent voor die sectie"
 }
