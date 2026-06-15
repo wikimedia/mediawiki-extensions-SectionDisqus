@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"sectiondisqus-desc": "Pridáva tlačidlo „Diskutovať“ vedľa tlačidla „Upraviť“ pri každej sekcii, ktoré po kliknutí otvorí Disqus Lightbox pre danú sekciu"
+}
